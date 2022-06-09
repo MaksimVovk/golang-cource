@@ -23,5 +23,5 @@ type State struct {
 }
 
 func (state *State) SetFilePath(path string) {
-
+	state.FilePath = path
 }
